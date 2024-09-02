@@ -1,0 +1,15 @@
+random_nr: main.o random.o
+	gcc -o random_nr main.o random.o
+
+main.o: main.c
+	gcc -c main.c
+
+random.o: random.c
+	gcc -c random.c
+
+.PHONY: clean
+
+clean:
+	rm -f *.o random_nr
+	echo "Delete .o files and excutable file"
+
