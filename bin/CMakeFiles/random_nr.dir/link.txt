@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/random_nr.dir/src/random.c.o CMakeFiles/random_nr.dir/src/main.c.o -o random_nr
